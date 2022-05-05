@@ -1,0 +1,87 @@
+/* 練習： 卡片製作 */
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F8C3CD;
+    font-family: "微軟正黑體";
+}
+.card{
+    width: 450px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    border: solid 2px black;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}   
+.top{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 90px;
+    top: -20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb5Xf0Cnrrnr1fzrXzgsovcLkQEjfV3LdVvg&usqp=CAU://encrypted-tbn0.gstatic.com/images?q=tbn:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb5Xf0Cnrrnr1fzrXzgsovcLkQEjfV3LdVvg&usqp=CAUANd9GcS57mrVT4Vb_1DqqepPHAETaY6pcJ-PLu7fVg&usqp=CAU://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS18GeBtG4nnCNmUw0Yjb9CCSAoNV0wvOuNgg&usqp=CAU);
+    background-size: cover;
+    background-position: center 70%;
+    position: relative;
+}
+.top p{
+    margin: 20px;
+    padding: 10px;
+    /* position: relative; */
+    left: 25px;
+    top: 15px;
+    font-size: 20px;
+    border-bottom: solid 2px #E87A90;
+    width: 400px;;
+    color: #E87A90;
+    font-weight: 900;
+}
+.botton{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -50px;
+    background-color: #FEDFE1;
+}
+.name{
+    padding: 0px;
+    /* margin-top: 40px; */
+    margin-left: 40px;
+    font-weight: 900;
+    color: #E87A90;
+}
+.name p{
+    position: relative;
+    font-size: 30px;
+    line-height: 2px;
+    left: -5px;
+}
+.name1{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 900;
+}
+.name1 p{
+    position: relative;
+    top: 15px;
+    left: -10px;
+}
+.name , .name1{
+    display: inline-block;
+}
+.bot{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 25px;
+    /* margin-left: 30px; */
+    padding-left: 40px;
+    line-height: 10px;
+    background-color: #E87A90;
+    font-size: 15px;
+}
